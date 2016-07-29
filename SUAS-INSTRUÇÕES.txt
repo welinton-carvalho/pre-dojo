@@ -1,6 +1,9 @@
 Coloque aqui suas instruções ou comentários que ache útil/relevantes para possamos ler 
 quando estivermos avaliando a sua solução
-
 -------------------------------------------------------
 
-Projeto desenvolvido utilizando MAVEN, GSON e JUNIT como dependencias.
+		INSTRUCOES
+
+- Projeto desenvolvido utilizando MAVEN, GSON e JUNIT como dependencias.
+
+- Para carregar um log basta aponta-lo na classe principal br.com.scoreboard.ScoreboardLoader.java

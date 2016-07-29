@@ -1,5 +1,7 @@
 package br.com.scoreboard.dto;
 
+import java.util.Date;
+
 import com.google.gson.Gson;
 
 import br.com.scoreboard.enums.WeaponEnum;
@@ -14,6 +16,12 @@ public class KillDTO extends EntryMatchDTO {
 
 	public KillDTO() {
 
+	}
+
+	public KillDTO(PlayerDTO playerKiller, WeaponEnum weapon, Date date) {
+		super.setDate(date);
+		this.playerKiller = playerKiller;
+		this.weapon = weapon;
 	}
 
 	public PlayerDTO getPlayerKiller() {

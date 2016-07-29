@@ -4,7 +4,7 @@
 
 23/04/2013 15:37:05 - Nick killed Roman using BROWNING_M2_HB
 
-23/04/2013 15:38:06 - Nick killed Roman using M16
+23/04/2013 15:38:06 - Nick killed Josh using M16
 
 23/04/2013 15:39:04 - Nick killed Roman using COLT_M4
 
@@ -20,7 +20,7 @@
 
 23/04/2013 15:46:04 - KFC killed Roman using COLT_M4
 
-23/04/2013 15:47:04 - Jhon killed Nick using M16
+23/04/2013 15:47:04 - Jhon killed Keyla using M16
 
 23/04/2013 15:49:33 - <WORLD> killed Nick by DROWN
 

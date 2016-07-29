@@ -99,6 +99,16 @@ public class ScoreboardComponentImpl implements ScoreboardComponent {
 
 				ranking.put(playerKiller.getName(), killerEntry);
 
+				PlayerDTO playerKilled = killerEntry.getPlayerKilled();
+
+				if (ranking.get(playerKilled.getName()) == null) {
+
+					ranking.put(playerKilled.getName(),
+							new KillDTO(playerKilled, killerEntry.getWeapon(),
+									killerEntry.getDate()));
+
+				}
+
 			}
 
 			for (KillDTO killerEntry : scoreboardEntries) {

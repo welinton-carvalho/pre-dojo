@@ -25,15 +25,14 @@ public class ScoreboardComponentTest {
 			IllegalArgumentException, NoSuchFieldException {
 
 		InputStream matchLogInputStream12Kills = ScoreboardLoader.class
-				.getClassLoader().getResourceAsStream("log_800_kills.txt");
+				.getClassLoader().getResourceAsStream("log_12_kills.txt");
 
 		MatchDTO match12Kills = this.scoreboardComponent
 				.loadMatchInteractions(matchLogInputStream12Kills);
 
 		Assert.assertNotNull(match12Kills);
-		
-		this.scoreboardComponent.printScoreBoard(match12Kills);
 
+		this.scoreboardComponent.printScoreBoard(match12Kills);
 
 	}
 
